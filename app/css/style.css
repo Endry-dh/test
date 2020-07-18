@@ -1,0 +1,252 @@
+/* reset */
+/* main variables */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  font-family: "TT_Travels", sans-serif;
+  background-color: #FFF;
+  min-height: 100%;
+  position: relative; }
+
+/*MAIN*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+input,
+textarea {
+  color: #333;
+  font-family: Arial, sans-serif;
+  outline: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
+
+input[type="button"],
+input[type="submit"],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: inherit; }
+
+td {
+  margin: 0px;
+  padding: 0px; }
+
+form {
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  color: #1A183D;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer; }
+
+a,
+span,
+div,
+button {
+  outline: none !important; }
+
+ul {
+  margin: 0;
+  list-style: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'TT_Travels';
+  src: url("../fonts/../fonts/TTTravels-Regular.eot");
+  src: url("../fonts/TTTravels-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTTravels-Regular.woff2") format("woff2"), url("../fonts/TTTravels-Regular.woff") format("woff"), url("../fonts/TTTravels-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Schnyder';
+  src: url("../fonts/SchnyderXCondXLDemi.eot");
+  src: url("../fonts/SchnyderXCondXLDemi.eot?#iefix") format("embedded-opentype"), url("../fonts/SchnyderXCondXLDemi.woff2") format("woff2"), url("../fonts/SchnyderXCondXLDemi.woff") format("woff"), url("../fonts/SchnyderXCondXLDemi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .header__logo {
+    width: 90px;
+    height: auto; }
+  .header__nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__nav-item {
+    text-align: right;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.07em;
+    margin-bottom: 9px; }
+
+/*
+================================================================================
+|                                     CONTENT                                   |
+================================================================================
+*/
+body {
+  cursor: url(/img/icons/circle.png), auto; }
+
+.main-wrapper {
+  padding: 0 0 0 0;
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 39px 47px 47px 47px;
+  margin: 0 auto; }
+
+.path {
+  stroke-dasharray: 1918;
+  stroke-dashoffset: 1918;
+  -webkit-animation: dash 5s linear forwards;
+          animation: dash 5s linear forwards; }
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+.content {
+  position: relative; }
+  .content__svg {
+    width: 610px;
+    height: auto;
+    position: relative;
+    top: -113px;
+    left: 30%; }
+  .content__photo-wrap {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0; }
+  .content__photo-item {
+    position: absolute; }
+    .content__photo-item_1 {
+      width: 217px;
+      top: 8%;
+      left: 13%; }
+    .content__photo-item_2 {
+      width: 435px;
+      left: 31.5%;
+      top: -7.5%; }
+    .content__photo-item_3 {
+      width: 315px;
+      right: 11.5%;
+      bottom: 26.5%; }
+  .content__title {
+    font-family: "Schnyder";
+    font-size: 125.581px;
+    line-height: 108px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #580300; }
+
+.swiper-container {
+  width: 600px;
+  height: 300px; }
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/

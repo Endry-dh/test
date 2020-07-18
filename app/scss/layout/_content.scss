@@ -1,0 +1,92 @@
+/*
+================================================================================
+|                                     CONTENT                                   |
+================================================================================
+*/
+
+body {
+  cursor: url(/img/icons/circle.png), auto;
+}
+
+.main-wrapper {
+  padding: 0 0 0 0;
+  min-width: $min-width;
+  max-width: $max-width;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 39px 47px 47px 47px;
+  margin: 0 auto;
+}
+
+.path {
+  stroke-dasharray: 1918;
+  stroke-dashoffset: 1918;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.content {
+  position: relative;
+
+  &__svg {
+    width: 610px;
+    height: auto;
+    position: relative;
+    top: -113px;
+    left: 30%;
+  }
+
+  &__photo-wrap {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  &__photo-item {
+    position: absolute;
+
+    &_1 {
+      width: 217px;
+      top: 8%;
+      left: 13%;
+    }
+
+    &_2 {
+      width: 435px;
+      left: 31.5%;
+      top: -7.5%;
+    }
+
+    &_3 {
+      width: 315px;
+      right: 11.5%;
+      bottom: 26.5%;
+    }
+  }
+  &__title {
+    font-family: $title-font-family;
+    font-size: 125.581px;
+    line-height: 108px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: $title-color;
+    // position: absolute;
+  }
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}

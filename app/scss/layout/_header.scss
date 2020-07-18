@@ -1,0 +1,27 @@
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+
+.header {
+  display: flex;
+  align-items: flex-start;
+	justify-content: space-between;
+  &__logo {
+    width: 90px;
+		height: auto;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+	}
+	&__nav-item {
+		text-align: right;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.07em;
+		margin-bottom: 9px;
+	}
+}
